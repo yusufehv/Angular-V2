@@ -43,5 +43,4 @@ export class PostsComponent implements OnInit {
       data => this.posts$ = data
     );
   }
-
 }

@@ -1,6 +1,7 @@
 nav {
   background: #2D2E2E;
   height: 100%;
+
 }
 
 ul {
@@ -14,9 +15,9 @@ li {
 
 a {
   background-color: #2D2E2E ;
-  color: #fff;
+  color: #ff9143;
   padding: 20px;
-  display: block;
+  display: flex;
 }
 
 .activated {

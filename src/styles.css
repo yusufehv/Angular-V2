@@ -1,19 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  margin: 0;
-  background: #F2F2F2;
+  margin: 0 ;
   font-family: 'Montserrat', sans-serif;
-  height: 100vh;
+  height: 100%;
+}
+#contain {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.3em;
+  display: grid;
+  grid-template-columns: 95% auto;
+  background: #2D2E2E;
+  height: 30px;
 }
 
 #container {
   display: grid;
-  grid-template-columns: 70px auto;
+  grid-template-columns: 60px auto;
   height: 100%;
 }
 
 #content {
-  padding: 30px 50px;
+  padding: 10px 30px;
+  background: lightgray;
 }
 
 ul {
@@ -23,21 +32,13 @@ ul {
 }
 
 li {
-  background: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 8px;
-}
-
-a {
-  font-size: 1.5em;
-  text-decoration: none;
-  font-weight: bold;
-  color:#00A8FF;
+  border-radius: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 
 ul {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 li {
@@ -46,5 +47,7 @@ li {
 
 a {
   font-size: 1em;
-  font-weight: 300;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff9143;
 }
