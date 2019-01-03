@@ -1,7 +1,7 @@
 nav {
   background: #2D2E2E;
-  height: 100%;
-
+  min-height: 100%;
+  position:relative;
 }
 
 ul {
@@ -18,8 +18,4 @@ a {
   color: #ff9143;
   padding: 20px;
   display: flex;
-}
-
-.activated {
-  background-color: #00a8ff;
 }
